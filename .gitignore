@@ -1,0 +1,4 @@
+*.swp
+*.swn
+.idea
+*.ipynb

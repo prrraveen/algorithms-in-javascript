@@ -1,0 +1,21 @@
+/*
+* this problem is derived from
+* https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-recursion-part-1/
+* */
+
+var fs = require("fs");
+var content = fs.readFileSync("employees.json");
+
+var dataTree = JSON.parse(content);
+
+function Solution(empName){
+    console.log(empName);
+    dataTree.forEach(function (person,index) {
+        if(person.manager == empName){
+            Solution(person.name);
+        }
+    })
+    return 0
+}
+
+console.log(Solution(empName = 'Ve

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Veronica",
+    "manager": ""
+  },
+  {
+    "name": "Nathan",
+    "manager": "Veronica"
+  },
+  {
+    "name": "Sally",
+    "manager": "Veronica"
+  },
+  {
+    "name": "Dilbert",
+    "manager": "Nathan"
+  },
+  {
+    "name": "Bob",
+    "manager": "Sally"
+  },
+  {
+    "name": "Joseph",
+    "manager": "Sally"
+  },
+  {
+    "name": "Susan",
+    "manager": "Bob"
+  },
+  {
+    "name": "Sam",
+    "manager": "Joseph"
+  },
+  {
+    "name": "Betty",
+    "manager": "Sam"
+  }
+]
